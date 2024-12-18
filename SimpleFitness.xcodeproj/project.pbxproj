@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		DCFBFDCE2D1279BE004D6DDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCFBFDB52D1279BD004D6DDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCFBFDBC2D1279BD004D6DDA;
+			remoteInfo = SimpleFitness;
+		};
+		DCFBFDD82D1279BE004D6DDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCFBFDB52D1279BD004D6DDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCFBFDBC2D1279BD004D6DDA;
+			remoteInfo = SimpleFitness;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DCFBFDBD2D1279BD004D6DDA /* SimpleFitness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleFitness.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCFBFDCD2D1279BE004D6DDA /* SimpleFitnessTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleFitnessTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCFBFDD72D1279BE004D6DDA /* SimpleFitnessUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleFitnessUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		DCFBFDBF2D1279BD004D6DDA /* SimpleFitness */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SimpleFitness;
+			sourceTree = "<group>";
+		};
+		DCFBFDD02D1279BE004D6DDA /* SimpleFitnessTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SimpleFitnessTests;
+			sourceTree = "<group>";
+		};
+		DCFBFDDA2D1279BE004D6DDA /* SimpleFitnessUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SimpleFitnessUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCFBFDBA2D1279BD004D6DDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCFBFDCA2D1279BE004D6DDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCFBFDD42D1279BE004D6DDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DCFBFDB42D1279BD004D6DDA = {
+			isa = PBXGroup;
+			children = (
+				DCFBFDBF2D1279BD004D6DDA /* SimpleFitness */,
+				DCFBFDD02D1279BE004D6DDA /* SimpleFitnessTests */,
+				DCFBFDDA2D1279BE004D6DDA /* SimpleFitnessUITests */,
+				DCFBFDBE2D1279BD004D6DDA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DCFBFDBE2D1279BD004D6DDA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCFBFDBD2D1279BD004D6DDA /* SimpleFitness.app */,
+				DCFBFDCD2D1279BE004D6DDA /* SimpleFitnessTests.xctest */,
+				DCFBFDD72D1279BE004D6DDA /* SimpleFitnessUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCFBFDBC2D1279BD004D6DDA /* SimpleFitness */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCFBFDE12D1279BE004D6DDA /* Build configuration list for PBXNativeTarget "SimpleFitness" */;
+			buildPhases = (
+				DCFBFDB92D1279BD004D6DDA /* Sources */,
+				DCFBFDBA2D1279BD004D6DDA /* Frameworks */,
+				DCFBFDBB2D1279BD004D6DDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				DCFBFDBF2D1279BD004D6DDA /* SimpleFitness */,
+			);
+			name = SimpleFitness;
+			packageProductDependencies = (
+			);
+			productName = SimpleFitness;
+			productReference = DCFBFDBD2D1279BD004D6DDA /* SimpleFitness.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DCFBFDCC2D1279BE004D6DDA /* SimpleFitnessTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCFBFDE42D1279BE004D6DDA /* Build configuration list for PBXNativeTarget "SimpleFitnessTests" */;
+			buildPhases = (
+				DCFBFDC92D1279BE004D6DDA /* Sources */,
+				DCFBFDCA2D1279BE004D6DDA /* Frameworks */,
+				DCFBFDCB2D1279BE004D6DDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCFBFDCF2D1279BE004D6DDA /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DCFBFDD02D1279BE004D6DDA /* SimpleFitnessTests */,
+			);
+			name = SimpleFitnessTests;
+			packageProductDependencies = (
+			);
+			productName = SimpleFitnessTests;
+			productReference = DCFBFDCD2D1279BE004D6DDA /* SimpleFitnessTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DCFBFDD62D1279BE004D6DDA /* SimpleFitnessUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCFBFDE72D1279BE004D6DDA /* Build configuration list for PBXNativeTarget "SimpleFitnessUITests" */;
+			buildPhases = (
+				DCFBFDD32D1279BE004D6DDA /* Sources */,
+				DCFBFDD42D1279BE004D6DDA /* Frameworks */,
+				DCFBFDD52D1279BE004D6DDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCFBFDD92D1279BE004D6DDA /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DCFBFDDA2D1279BE004D6DDA /* SimpleFitnessUITests */,
+			);
+			name = SimpleFitnessUITests;
+			packageProductDependencies = (
+			);
+			productName = SimpleFitnessUITests;
+			productReference = DCFBFDD72D1279BE004D6DDA /* SimpleFitnessUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCFBFDB52D1279BD004D6DDA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					DCFBFDBC2D1279BD004D6DDA = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					DCFBFDCC2D1279BE004D6DDA = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = DCFBFDBC2D1279BD004D6DDA;
+					};
+					DCFBFDD62D1279BE004D6DDA = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = DCFBFDBC2D1279BD004D6DDA;
+					};
+				};
+			};
+			buildConfigurationList = DCFBFDB82D1279BD004D6DDA /* Build configuration list for PBXProject "SimpleFitness" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCFBFDB42D1279BD004D6DDA;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = DCFBFDBE2D1279BD004D6DDA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCFBFDBC2D1279BD004D6DDA /* SimpleFitness */,
+				DCFBFDCC2D1279BE004D6DDA /* SimpleFitnessTests */,
+				DCFBFDD62D1279BE004D6DDA /* SimpleFitnessUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCFBFDBB2D1279BD004D6DDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCFBFDCB2D1279BE004D6DDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCFBFDD52D1279BE004D6DDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCFBFDB92D1279BD004D6DDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCFBFDC92D1279BE004D6DDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCFBFDD32D1279BE004D6DDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DCFBFDCF2D1279BE004D6DDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCFBFDBC2D1279BD004D6DDA /* SimpleFitness */;
+			targetProxy = DCFBFDCE2D1279BE004D6DDA /* PBXContainerItemProxy */;
+		};
+		DCFBFDD92D1279BE004D6DDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCFBFDBC2D1279BD004D6DDA /* SimpleFitness */;
+			targetProxy = DCFBFDD82D1279BE004D6DDA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DCFBFDDF2D1279BE004D6DDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DCFBFDE02D1279BE004D6DDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCFBFDE22D1279BE004D6DDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SimpleFitness/Preview Content\"";
+				DEVELOPMENT_TEAM = 6NA3MMH698;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rodgutierrez.SimpleFitness;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DCFBFDE32D1279BE004D6DDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SimpleFitness/Preview Content\"";
+				DEVELOPMENT_TEAM = 6NA3MMH698;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rodgutierrez.SimpleFitness;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DCFBFDE52D1279BE004D6DDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6NA3MMH698;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rodgutierrez.SimpleFitnessTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleFitness.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SimpleFitness";
+			};
+			name = Debug;
+		};
+		DCFBFDE62D1279BE004D6DDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6NA3MMH698;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rodgutierrez.SimpleFitnessTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleFitness.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SimpleFitness";
+			};
+			name = Release;
+		};
+		DCFBFDE82D1279BE004D6DDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6NA3MMH698;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rodgutierrez.SimpleFitnessUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SimpleFitness;
+			};
+			name = Debug;
+		};
+		DCFBFDE92D1279BE004D6DDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6NA3MMH698;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rodgutierrez.SimpleFitnessUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SimpleFitness;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCFBFDB82D1279BD004D6DDA /* Build configuration list for PBXProject "SimpleFitness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCFBFDDF2D1279BE004D6DDA /* Debug */,
+				DCFBFDE02D1279BE004D6DDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCFBFDE12D1279BE004D6DDA /* Build configuration list for PBXNativeTarget "SimpleFitness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCFBFDE22D1279BE004D6DDA /* Debug */,
+				DCFBFDE32D1279BE004D6DDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCFBFDE42D1279BE004D6DDA /* Build configuration list for PBXNativeTarget "SimpleFitnessTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCFBFDE52D1279BE004D6DDA /* Debug */,
+				DCFBFDE62D1279BE004D6DDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCFBFDE72D1279BE004D6DDA /* Build configuration list for PBXNativeTarget "SimpleFitnessUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCFBFDE82D1279BE004D6DDA /* Debug */,
+				DCFBFDE92D1279BE004D6DDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DCFBFDB52D1279BD004D6DDA /* Project object */;
+}
